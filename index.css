@@ -1,0 +1,29 @@
+.header {
+    background-color: black;
+    grid-area: h;
+}
+
+.main {
+    background-color: blue;
+    grid-area: m;
+}
+
+.aside {
+    background-color: red;
+    grid-area: a;
+}
+
+.footer{
+    background-color: lime;
+    grid-area: f;
+}
+
+.grid {
+    height: 100vw;
+    width: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'h h h'
+    'm m a'
+    'f f f';
+}
