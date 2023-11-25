@@ -1,0 +1,14 @@
+table{
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-block: 1rem;
+}
+
+tr:nth-child(even) { 
+    background-color: lightblue; 
+} 
+
+tr, td {
+    border: 1px solid darkslategrey;
+}
